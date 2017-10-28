@@ -46,6 +46,7 @@
   <script>
     hljs.initHighlightingOnLoad();
   </script>
+  {{ partial "mathjax.html" . }}
   {{ with .Site.Params.AnalyticsID }}{{ partial "analytics.html" . }}{{ end }}
 </body>
 
